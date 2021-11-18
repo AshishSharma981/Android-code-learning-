@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:text="TextView"
+            android:layout_height="51dp"
+            android:onClick="textv"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="edit"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="EditText" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="button"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="check"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="CheckBox" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="toggle"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="ToggleButton" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ratting"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="RattingBar" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="progress"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="ProgressBar" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="spinner"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="Spinner" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:onClick="date"
+            android:text="DatePicker"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="30dp"
+            android:textAllCaps="false"
+            android:onClick="fragment"
+            android:background="#00FFFF"
+            android:text="ActionBar" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="option"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="OptionMenu" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="simple"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+             android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="Simple Intent" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="seek"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="SeekBar" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="ssww"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#00FFFF"
+            android:textAllCaps="false"
+            android:textSize="30dp"
+            android:text="Switch" />
+
+
+    </LinearLayout>
+</ScrollView>
